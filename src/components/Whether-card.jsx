@@ -16,7 +16,7 @@ function WeatherCard() {
           city
         )}&appid=${API_KEY}&units=metric`
       );
-      console.log("API KEY:", API_KEY);
+      // console.log("API KEY:", API_KEY);
 
       const data = await response.json();
 
